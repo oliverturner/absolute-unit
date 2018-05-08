@@ -1,7 +1,7 @@
 {
   "name": "absolute-unit",
   "description": "A micro-library for making round bois",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Oliver Turner",
   "repository": {
     "url": "git@github.com:oliverturner/absolute-unit.git"
