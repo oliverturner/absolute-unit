@@ -1,0 +1,6 @@
+.env
+/*.js
+/lib
+
+node_modules
+*.log

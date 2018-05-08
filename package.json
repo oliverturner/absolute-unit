@@ -1,19 +1,32 @@
 {
   "name": "absolute-unit",
   "description": "A micro-library for making round bois",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Oliver Turner",
-  "repository": {
-    "url": "git@github.com:oliverturner/absolute-unit.git"
-  },
   "keywords": [
     "boi",
     "math",
     "round"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "./lib",
+  "repository": {
+    "url": "git@github.com:oliverturner/absolute-unit.git"
+  },
+  "dependencies": {
+    "@babel/cli": "7.0.0-beta.46",
+    "@babel/core": "7.0.0-beta.46",
+    "@babel/preset-env": "7.0.0-beta.46"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "22.4.3",
+    "jest": "21.3.0-beta.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "babel src -d lib",
+    "precommit": "npm run test",
+    "prepublish": "npm run build"
   }
 }
