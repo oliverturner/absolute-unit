@@ -1,0 +1,16 @@
+{
+  "name": "absolute-unit",
+  "description": "A micro-library for making round bois",
+  "version": "0.0.2",
+  "author": "Oliver Turner",
+  "keywords": [
+    "boi",
+    "math",
+    "round"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
