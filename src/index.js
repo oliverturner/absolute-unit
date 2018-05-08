@@ -11,7 +11,7 @@ export const round = (number, precision = 0) => {
     return +`${a}e${exp}`;
   };
 
-  return shift(Math.round(shift(number, +precision)), -precision);
+  return shift(Math.round(shift(+number, +precision)), -precision);
 };
 
 export default absolute;

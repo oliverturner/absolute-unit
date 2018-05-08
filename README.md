@@ -4,9 +4,21 @@
 
 WIP: A micro-library for making round bois
 
+More functionality coming!
+
 ## How
 
-Not yet... but shortly you'll be able to parse input as round numbers, thusly
+At the moment this semi-serious library offers a little more roundness than the 
+language itself (correcting floating point silliness)
+
+```js
+import { round } from "absolute-unit"
+
+const pie = "3.14159265359";
+const unit = round(pie, 2); // => 3.14
+```
+
+Shortly you'll be able to parse embedded input as round numbers, thusly
 
 ```js
 import { round } from "absolute-unit"
@@ -15,7 +27,7 @@ const pie = "Roughly 3.14159265359";
 const unit = round(pie, 2); // => 3.14
 ```
 
-In the meantime you *can* get the absolute value of a number
+In the meantime you can also get the absolute value of a number
 (the non-negative value of x without regard to its sign)
 
 ```js
